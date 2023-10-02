@@ -2,7 +2,7 @@
 pragma solidity >=0.8.0;
 import { System } from "@latticexyz/world/src/System.sol";
 import { addressToEntityKey } from "../addressToEntityKey.sol";
-import { Role } from "../codegen/index.sol";
+import { Role } from "../codegen/Tables.sol";
 
 contract MapSystem is System {
   function distance(uint32 fromX, uint32 fromY, uint32 toX, uint32 toY) internal pure returns (uint32) {
