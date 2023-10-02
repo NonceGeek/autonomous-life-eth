@@ -5,6 +5,17 @@ export default mudConfig({
     // TODO
   },
   tables: {
-    // TODO
+    Role: {
+      keySchema: {
+        id: "bytes32",
+      },
+      schema: {
+        age: "uint32",
+        health: "uint32",
+        karma: "uint32",
+        name: "string",
+        description: "string",
+      },
+    },
   },
 });

@@ -4,5 +4,25 @@ import { TableId } from "@latticexyz/utils";
 import { defineComponent, Type as RecsType, World } from "@latticexyz/recs";
 
 export function defineContractComponents(world: World) {
-  return {};
+  return {
+    Role: (() => {
+      const tableId = new TableId("", "Role");
+      return defineComponent(
+        world,
+        {
+          age: RecsType.Number,
+          health: RecsType.Number,
+          karma: RecsType.Number,
+          name: RecsType.String,
+          description: RecsType.String,
+        },
+        {
+          metadata: {
+            contractId: tableId.toHexString(),
+            tableId: tableId.toString(),
+          },
+        }
+      );
+    })(),
+  };
 }

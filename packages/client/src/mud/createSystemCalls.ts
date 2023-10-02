@@ -35,11 +35,21 @@ export function createSystemCalls(
     return null as any;
   };
 
+  const genRole = async (name : string, description :string , age: number, karma: number) => {
+    // console.log("genRole");
+    // const tx = await worldContract.write.genRole(age, karma, name, description);
+    const tx = await worldSend("genRole", [ age, karma, name, description ]);
+    //   // const tx = await worldSend("genRole", { 100 , 0, "test", "Aha"});
+    // // worldContract.write.genRole(100, 0, "test", "test");
+    await awaitStreamValue(txReduced$, (txHash) => txHash === tx.hash);
+  }
+
   return {
     moveTo,
     moveBy,
     spawn,
     throwBall,
     fleeEncounter,
+    genRole,
   };
 }

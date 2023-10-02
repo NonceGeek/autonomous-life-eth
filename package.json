@@ -1,5 +1,5 @@
 {
-  "name": "emojimon",
+  "name": "autonomous-life",
   "private": true,
   "scripts": {
     "build": "pnpm recursive run build",
