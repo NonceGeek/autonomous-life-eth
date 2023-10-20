@@ -1,0 +1,6 @@
+digraph G {
+
+  v0 [label="hello world",shape="polygon",sides="4"]
+  v1 [label="hello world",shape="polygon",sides="4"]
+
+}

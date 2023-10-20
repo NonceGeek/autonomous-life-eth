@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/rockyrocky/.nvm/versions/node/v18.18.0/bin/node /Users/rockyrocky/.nvm/versions/node/v18.18.0/bin/yarn
+
+PATH: 
+  /Users/rockyrocky/.nvm/versions/node/v18.18.0/bin:/Users/rockyrocky/.asdf/installs/erlang/25.0.4/bin:/Users/rockyrocky/.asdf/installs/elixir/1.13.4-otp-25/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rockyrocky/.cargo/bin:/Users/rockyrocky/.foundry/bin:/Users/rockyrocky/Library/Python/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/rockyrocky/Library/Caches/Yarn/v6/npm-glob-8.1.0-d388f656593ef708ee3e34640fdfb99a9fd1c33e-integrity/node_modules/glob/README.md' -> '/Users/rockyrocky/test/autonomous-life/node_modules/@latticexyz/cli/node_modules/glob/README.md'
+
+npm manifest: 
+  {
+    "name": "autonomous-life",
+    "private": true,
+    "scripts": {
+      "build": "pnpm recursive run build",
+      "dev": "concurrently -n contracts,client -c cyan,magenta \"cd packages/contracts && pnpm run dev\" \"cd packages/client && pnpm run dev\"",
+      "dev:client": "pnpm --filter 'client' run dev",
+      "dev:contracts": "pnpm --filter 'contracts' dev",
+      "foundry:up": "curl -L https://foundry.paradigm.xyz | bash && bash $HOME/.foundry/bin/foundryup",
+      "initialize": "pnpm recursive run initialize",
+      "mud:up": "pnpm recursive exec mud set-version -v canary && pnpm install",
+      "prepare": "(forge --version || pnpm foundry:up)",
+      "test": "pnpm recursive run test"
+    },
+    "devDependencies": {
+      "@latticexyz/cli": "2.0.0-alpha.1.177",
+      "@typescript-eslint/eslint-plugin": "5.46.1",
+      "@typescript-eslint/parser": "5.46.1",
+      "concurrently": "^8.0.1",
+      "eslint": "8.29.0",
+      "rimraf": "^3.0.2",
+      "typescript": "^4.9.5",
+      "axios": "^0.27.2"
+    },
+    "engines": {
+      "node": "18.x",
+      "pnpm": "8.x"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

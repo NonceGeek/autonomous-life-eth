@@ -1,0 +1,214 @@
+digraph NonceGeekRepoTree {
+  cluster_1_repo [
+      label="Repo",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/MoveDID" 
+      target="_blank"
+  ]
+  
+  cluster_1_contributors [
+      label="Contributors",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/MoveDID#contributors" 
+      target="_blank"
+  ]
+
+  cluster_1_money_history [
+      label="Money History",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/MoveDID#money-history" 
+      target="_blank"
+  ]
+  
+  cluster_1_distributed_rules [
+      label="Distributed Rules",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/MoveDID#distributed-rules" 
+      target="_blank"
+  ]
+  
+  cluster_1_movedid [
+      label="DID: 0x2d...ed",
+      shape="polygon",
+      sides="4", 
+      URL="https://explorer.aptoslabs.com/account/0x2df41622c0c1baabaa73b2c24360d205e23e803959ebbcb0e5b80462165893ed?network=mainnet" 
+      target="_blank"
+  ]
+  
+
+  
+  subgraph cluster_1 {
+      node [style=filled];
+      cluster_1_contributors;
+      cluster_1_money_history;
+      cluster_1_repo;
+      cluster_1_distributed_rules;
+      cluster_1_movedid;
+      label = "MoveDID";
+      color=blue
+  }
+  
+  cluster_2_repo [
+      label="Repo",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/tai_shang_micro_faas_system" 
+      target="_blank"
+  ]
+  
+  cluster_2_movedid [
+      label="DID: 0x06...ed",
+      shape="polygon",
+      sides="4", 
+      URL="https://explorer.aptoslabs.com/account/0x06a19c3df50ea7e7b8e686246db5c4d98affa4aa0de05285688a90342751eeed" 
+      target="_blank"
+  ]
+  
+  cluster_2_contributors [
+      label="Contributors",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/tai_shang_micro_faas_system#contributors" 
+      target="_blank"
+  ]
+
+  cluster_2_money_history [
+      label="Money History",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/tai_shang_micro_faas_system#money-history" 
+      target="_blank"
+  ]
+  
+  cluster_2_distributed_rules [
+      label="Distributed Rules",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/tai_shang_micro_faas_system#distributed-rules" 
+      target="_blank"
+  ]
+  
+  subgraph cluster_2 {
+      node [style=filled];
+      cluster_2_contributors;
+      cluster_2_money_history;
+      cluster_2_repo;
+      cluster_2_distributed_rules;
+      cluster_2_movedid;
+      label = "TaiShang Micro FaaS System";
+      color=blue
+  }
+  
+  cluster_3_repo [
+      label="Repo",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/web3_aptos_ex" 
+      target="_blank"
+  ]
+  
+  cluster_3_movedid [
+      label="DID: 0x1e...02",
+      shape="polygon",
+      sides="4", 
+      URL="https://explorer.aptoslabs.com/account/0x1e87fd50b0e297f5c8c05ee0e8516c7cdce991c91c9ce6817c65fcf7bd982602" 
+      target="_blank"
+  ]
+  
+  cluster_3_contributors [
+      label="Contributors",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/web3_aptos_ex#contributors" 
+      target="_blank"
+  ]
+
+  cluster_3_money_history [
+      label="Money History",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/web3_aptos_ex#money-history" 
+      target="_blank"
+  ]
+  
+  cluster_3_distributed_rules [
+      label="Distributed Rules",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/web3_aptos_ex#distributed-rules" 
+      target="_blank"
+  ]
+  
+  subgraph cluster_3 {
+      node [style=filled];
+      cluster_3_contributors;
+      cluster_3_money_history;
+      cluster_3_repo;
+      cluster_3_distributed_rules;
+      cluster_3_movedid;
+      label = "Web3 Aptos Ex";
+      color=blue
+  }
+  
+  cluster_4_repo [
+      label="Repo",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/Move-Airdropper-Based-On-Github" 
+      target="_blank"
+  ]
+  
+  cluster_4_contributors [
+      label="Contributors",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/Move-Airdropper-Based-On-Github#contributors" 
+      target="_blank"
+  ]
+
+  cluster_4_money_history [
+      label="Money History",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/Move-Airdropper-Based-On-Github#money-history" 
+      target="_blank"
+  ]
+  
+  cluster_4_distributed_rules [
+      label="Distributed Rules",
+      shape="polygon",
+      sides="4", 
+      URL="https://github.com/NonceGeek/Move-Airdropper-Based-On-Github#distributed-rules" 
+      target="_blank"
+  ]
+  
+  cluster_4_movedid [
+      label="DID: 0x82...55",
+      shape="polygon",
+      sides="4", 
+      URL="https://explorer.aptoslabs.com/account/0x82b219e76ca10cbcc6a66a547c43a8c72531fb4785548db153f02f552dbf7a55?network=mainnet" 
+      target="_blank"
+  ]
+  
+
+  
+  subgraph cluster_4 {
+      node [style=filled];
+      cluster_4_contributors;
+      cluster_4_money_history;
+      cluster_4_repo;
+      cluster_4_distributed_rules;
+      cluster_4_movedid;
+      label = "Move Airdropper based on Github";
+      color=blue
+  }
+  
+  cluster_4_repo -> cluster_1_repo [label="10%"]
+  cluster_1_repo -> cluster_2_repo [label="2.5%"];
+  cluster_1_repo -> cluster_3_repo [label="5%"];
+
+}

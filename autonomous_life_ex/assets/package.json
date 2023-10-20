@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy": "cd .. && mix assets.deploy && rm -f _build/esbuild"
+  },
+  "dependencies": {
+    "vis": "^4.21.0-EOL"
+  }
+}
