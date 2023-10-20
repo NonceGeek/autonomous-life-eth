@@ -1,4 +1,4 @@
-# DAO System based on Github
+# Autonomous Life Ex
 
 A clean install of the Phoenix 1.7 (RC) along with:
 - Alpine JS - using a CDN to avoid needing `node_modules`
