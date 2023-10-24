@@ -2,7 +2,7 @@
 
 See MVP: https://autonomous-life.movespace.xyz
 
-> Create the Autonomous Life with [MUD](https://mud.dev/) and [MoveSpace](https://movespace.xyz)
+> Create the Autonomous Life with [MUD](https://mud.dev/) and [MoveSpace](https://movespace.xyz).
 
 AutonomousLife Smart Contract:
 
