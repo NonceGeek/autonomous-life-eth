@@ -62,7 +62,7 @@ defmodule AutonomousLifeExWeb.PageLive do
             <br><br>
             <a
               target="_blank"
-              href="https://autonomous-life-p0tjhbl0o-leeduckgo.vercel.app/"
+              href="https://autonomous-life.vercel.app/"
             >
               <.button label="View">
                 Launch Game
