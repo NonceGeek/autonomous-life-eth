@@ -78,6 +78,10 @@ const config: HardhatUserConfig = {
       url: `https://polygon-mumbai.g.alchemy.com/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],
     },
+    neoEVM: {
+      url: `https://evm.ngd.network:32331`,
+      accounts: [deployerPrivateKey],
+    },
     polygonZkEvm: {
       url: `https://polygonzkevm-mainnet.g.alchemy.com/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],

@@ -9,9 +9,30 @@ export type ScaffoldConfig = {
   walletAutoConnect: boolean;
 };
 
+const neoEVM: chains.Chain = {
+  id: 2970385,
+  name: "neoEVM",
+  network: "neoEVM",
+  nativeCurrency: {
+    name: "Gas",
+    symbol: "GAS",
+    decimals: 18,
+  },
+  rpcUrls: {
+    default:
+    {
+      http: ["https://evm.ngd.network:32331"]
+    },
+    public: 
+    {
+      http: ["https://evm.ngd.network:32331"]
+    },
+  }
+}
+
 const scaffoldConfig = {
   // The network where your DApp lives in
-  targetNetwork: chains.hardhat,
+  targetNetwork: neoEVM,
 
   // The interval at which your front-end polls the RPC servers for new data
   // it has no effect on the local network

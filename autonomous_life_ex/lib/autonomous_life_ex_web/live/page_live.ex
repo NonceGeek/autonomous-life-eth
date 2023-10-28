@@ -58,11 +58,11 @@ defmodule AutonomousLifeExWeb.PageLive do
             </.card_content>
 
             <.card_footer>
-            <.badge color="secondary" label="aptos" />
+            <.badge color="secondary" label="neoEVM" />
             <br><br>
             <a
               target="_blank"
-              href="https://manager.movedid.build/lightweight_dao_manager"
+              href="https://autonomous-life-p0tjhbl0o-leeduckgo.vercel.app/"
             >
               <.button label="View">
                 Launch Game
