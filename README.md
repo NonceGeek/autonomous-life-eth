@@ -2,6 +2,8 @@
 
 See MVP: https://autonomous-life.movespace.xyz
 
+See Game: https://autonomous-life.vercel.app/
+
 > Create the Autonomous Life with [MUD](https://mud.dev/) and [MoveSpace](https://movespace.xyz).
 
 AutonomousLife Smart Contract:
